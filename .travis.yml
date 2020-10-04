@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t frontend-react-app -f Docker.dev .
+  - docker build -t frontend-react-app -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true frontend-react-app npm run test
