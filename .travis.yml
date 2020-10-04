@@ -10,3 +10,7 @@ before_install:
 
 script:
   - docker run -e CI=true frontend-react-app npm run test
+  
+provider: elasticbeanstalk
+
+region: us-east-2
