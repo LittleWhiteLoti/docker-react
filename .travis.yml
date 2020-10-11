@@ -21,9 +21,9 @@ deploy:
   on:
     branch: master
 
-  access_key_id: "$AWS-ACCESS-KEY-DOCKER-REACT"
+  access_key_id: "AWS-ACCESS-KEY-DOCKER-REACT"
   secret_access_key:
-    secure: "$AWS-SECRET-KEY-DOCKER-REACT"
+    secure: "AWS-SECRET-KEY-DOCKER-REACT"
 
 
 
