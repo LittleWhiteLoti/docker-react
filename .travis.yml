@@ -6,7 +6,6 @@ services:
   - docker
 
 before_install:
-  - npm i -g npm@latest
   - docker build -t frontend-react-app -f Dockerfile.dev .
 
 script:
