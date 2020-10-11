@@ -1,6 +1,4 @@
-FROM alphine:3.10
-
-ENV NODE_VERSION 14.13.1
+FROM node:alpine
 
 WORKDIR /app
 
